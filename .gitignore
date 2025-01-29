@@ -1,0 +1,17 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all datasets
+Dataset/
+
+# Ignore image files generated during training or testing
+*.png
+
+# Include all notebooks (add exceptions if needed)
+!*.ipynb
+
+# General rules for temporary files
+*.log
+*.tmp
+.DS_Store
+*.swp
